@@ -38,3 +38,5 @@
     + `margin : ↑ → ↓ ← ` : 시계방향으로 줄 수도 있음.
 + Inspect
   + user agent stylesheet : 브라우저가 기본값을 주었다는 의미
+
++ collapse margins : elem의 경계가 body이랑 같으면 두 마진은 하나로 취급된다.

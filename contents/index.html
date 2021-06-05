@@ -4,38 +4,38 @@
   <link rel="shortcut icon"
     sizes="16x16 32x32 64x64"
     href="https://assets.justinmind.com/wp-content/uploads/2019/07/favicon.ico" />
-  <!--link rel="stylesheet" href= "styles.css" /-->
+  <link rel="stylesheet" href= "styles.css" />
   <title> The Invidam Times. </title>
   <meta charset="utf-8" />
   <meta name="description" content="The Invidam Times." />
   <style>
-    html {
-      background-color:  tomato;
-    }
-    h1 {
-       color : navy;
-    }
     body {
-      background-color: thistle;
-      margin : 0;
-    }
+       margin : 20px;
+       height : 100vh;
+       weight: 100vh;
+       display : flex;
+       flex-wrap : nowrap;
+       justify-content: space-between;
+       align-items : flex-start;
+       flex-wrap: wrap;
+     }
     div {
-      margin : 100px 200px 300px 400px;
-      border : 10px, purple;
-      height : 150px;
-      width : 150px;
-      background-color : white;
+      display: flex;
+      justify-content: center;
+      align-items : center;
+      width: 50px;
+      height: 50px;
+      background-color: teal;
     }
-    span {
-      display: block;
-      color : turquoise;
+    #second {
+      background-color: wheat;
     }
   </style>
 </head>
 <body>
-  <div>t </div>
-  <div>a </div>
-  <span>hello</span>
-  <span>hello</span>
+  <div> 1 </div>
+  <div id="second">2  </div>
+  <div> 3 </div>
+  </div>
 </body>
 </html>
