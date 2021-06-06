@@ -21,7 +21,7 @@
 + ID : unique identify : elment당 1개의 id만 가질 수 있다.
   + 이 규칙을 어기면 작동이 안됨 (오류 검출은 안됨)
 
-## 2.10 Semantic HTML
+## 2.10 Semantic(의미론적) HTML
 + `<div> </div>` : 의미X, 구분 위한 코드
   + `<header></header>`, `<main></main>`, `<footer></footer>`, `<span></span>` : 각각 이름에 맞는 조금의 의미가 추가됨
     + footer : 꼬릿말을 위함

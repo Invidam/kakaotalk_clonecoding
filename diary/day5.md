@@ -3,24 +3,27 @@
 
 ## 3.0 How to Add CSS to HTML# 3
 + css를 추가할때에는 html파일에 추가하거나 독자적인 파일에 추가할수도 있다.
-  + html파일에 추가 : `<style>` 태그 사용 [inline]
-  + 독자적인 파일 추가: `<link rel = stylesheet />` [external]
+  + html파일에 추가[inline] : `<style>` 태그 사용
+  + 독자적인 파일 추가[external]: `<link rel = stylesheet href= (위치).css />`
 
 ##3.1 Writing Our First CSS Lines
 ```
 [selector]
 {
-  [property]
+  [property] : [value];
 }
 
 ```
 + selector : 가리키고자 하는 태그
 + property : 태그에 적용시킬 내용
++ value : property의 값
++ ; : 문장바꿈 표시
 
 ## 3.2 What Does Cascading Mean
 + CSS : cascading style sheet
 + Cascading: (위에서부터 아래로 차례대로 읽는다는 뜻)
   + CSS, 마지막에 설정한 속정이 최종적으로 적용됨.
+    + 즉 위에서도 적용하고 아래에서도 적용하면 아래것만 적용됨 (덧씌워짐)
 
 ## 3.3 Blocks and Inlines
 

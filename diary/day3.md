@@ -7,11 +7,13 @@
   + `target = "_self or _blank"` : 어디에 열건지를 설정
 
 
-+ `< />` : self closing tag
++ `<tag~~ />` : self closing tag
 
-+ tag: 태그
-+ attribute : 태그에 추가하는 부차적인 정보
-  + tag에 따라 다름.
+
++ 태그 관련 용어
+  + tag: 태그
+  + attribute : 태그에 추가하는 부차적인 정보
+    + tag에 따라 다름.
 
 
 ## 2.5 More Tags and Head
