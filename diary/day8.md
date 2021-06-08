@@ -14,4 +14,26 @@
 
 **absolute는 자주 쓰이며, relative는 부모로 같이 쓰임**
 
-#
+## 3.14, 3.16 Pseudo Selectors
++ Pseudo SElectors: 다양한 방법으로 SElectors을 선정할 수 있게 해줌
+  + tag:last-child : 태그 중 마지막 원소
+  + tag:first-child : 태그 중 첫 번째  원소
+  + tag:nth-child(n) : n번째 원소
+    + even, odd : 홀 짝
+    + an +b 꼴로 b번쨰부터 a번째 마다를 표현가능
+  + `input required/optional` 에서 iinput:required/optional로 선택 가능
+
++ attribute selector : attributes를 이용해 선택가능
+  + `tag[atrribute="value"] {}` 처럼 사용
+    + `~="value"` : value, first value, last value 모두 선택 (띄워쓰기로 구분되야함)
+
+
+
+
+
+## 3.15 Combinators
++ combinators: selectors간의 관계를 나타내게 해줌
+  + `t1 t2 {}` : 조상태그(t1)안에 있는 자식태그(t2) 선택가능
+  + `t1 > t2 {}` : 부모태그(t1)바로 밑에있는 자식태그(t2)을 선택함
+  + `t1 + t2 {}` : t1 바로 다음에오는 태그 t2들를 선택
+  + `t1 ~ t2 {}` : t1 다음에 있는 t2태그들을 선택
