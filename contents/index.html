@@ -9,29 +9,38 @@
   <meta charset="utf-8" />
   <meta name="description" content="The Invidam Times." />
   <style>
-    @keyframes coinflip {
-      0% {
-        transform:rotate(0);
-      }
-      50% {
-        transform:rotate(360deg) translateX(100px);
-        opacity : 0;
-      }
-      100% {
-        transform:rotate(0);
+    body {
+      display :flex;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+      flex-direction:column;
+    }
+    div {
+      background-color : teal;
+      height : 100px;
+      width: 100px;
+    }
+    @media screen and (min-width: 600px) and (max-width : 1200px) and (orientation : landscape) {
+      div {
+        background-color : wheat;
       }
     }
-    img {
-     border: 1px solid black;
-     border-radius : 50%;
-     transition: all 5s ease-in;
-     animation: coinflip 5s ease-in-out infinite;
+    @media screen and (orientation: landscape) {
+      span {
+        display: none;
+      }
+    }
+    @media print {
+      body { background-color : green;}
+    }
+    span {
+      font-size: 50px;
     }
   </style>
 </head>
 <body>
-  <img src="load.png" width="100%"/>
-  <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
-
+  <div>  </div>
+  <span> Please flip your phone :(</span>
 </body>
 </html>
