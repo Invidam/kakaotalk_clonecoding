@@ -7,7 +7,15 @@
 @import "screens/login.css";
 /* Navigation */
 @import "components/nav-bar.css";
+/* Screen header */
+@import "components/screen-header.css";
+/* Friends */
+@import "screens/friends.css";
+/* User Info */
+@import "components/user-componet.css";
+
 
 body {
+  color: #2e363e;
   font-family: 'Open Sans', sans-serif;
 }
