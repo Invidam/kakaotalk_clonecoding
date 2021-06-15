@@ -6,24 +6,25 @@
   background-color : #fafafa;
   padding : 15px 0px;
   margin-bottom: 5px;
+  margin-top: -15px;
 }
 
 #friends-display-link i {
-  color: rgba(0,0,0,.3);
+  color: var(--gray);
 }
 .friends-screen {
   padding : 0px var(--horizontal-space);
 }
 .friends-screen__channel {
   margin-top : 25px;
-  border-top: 1px solid rgba(0,0,0,.2);
+  border-top: var(--main-border);
   padding-top: 12px;
 }
 .friends-screen__channel-header {
   margin-bottom: 30px;
   display: flex;
   justify-content: space-between;
-  color : rgba(0, 0, 0, 0.5);
+  color : rgba(0,0,0,.5);
 }
 .friends-screen__channel-header span {
   font-weight: 520;

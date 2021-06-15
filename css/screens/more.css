@@ -1,0 +1,52 @@
+.fa-exclamation-circle {
+  color: tomato;
+}
+.more-screen .icon-row {
+  margin-top: 35px;
+  justify-content: flex-start;
+  /* padding: 0px 25px; */
+}
+.more-screen .icon-row__icon {
+  width: 100px;
+  height: 100px;
+  margin:0px 25px;
+}
+
+.more-suggestion__icons {
+  display: flex;
+  align-items:center;
+}
+.more-suggestion__icon {
+  margin-right: 30px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.more-suggestion {
+    margin-top: 50px;
+    padding-top: 40px;
+    border-top: var(--main-border);
+}
+.more-suggestion__title {
+  margin-bottom: 30px;
+}
+.more-suggestion__icon-image {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: var(--yellow);;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+.more-suggestion__icon-image i {
+  font-size: 32px;
+  color: white;
+}
+.more-suggestion__icon-text {
+  font-weight: bold;
+  color:red;
+}

@@ -36,7 +36,13 @@
   color: rgba(158,158,158,.91);
 }
 
-
 .user-component__column:last-child {
-  color : rgba(0,0,0,.5);
+  color : var(--gray);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.user-component__time {
+  display:block;
+  margin-bottom: 5px;
 }

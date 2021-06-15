@@ -1,8 +1,11 @@
 .screen-header {
   display:flex;
+  position: relative;
   justify-content:space-between;
   align-items: center;
   padding : var(--horizontal-space);
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 .screen-header__title {
   font-size: 32px;
@@ -10,4 +13,9 @@
 }
 .screen-header__icons span {
   margin-left: 25px;
+}
+.screen-header__badge {
+  position: absolute;
+  right: 20px;
+  top: 25px;
 }

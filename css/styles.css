@@ -3,19 +3,26 @@
 @import "variables.css";
 /* Components */
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-componet.css";
+@import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/alt-screen-header.css";
+
 /* Sceens */
 @import "screens/login.css";
-/* Navigation */
-@import "components/nav-bar.css";
-/* Screen header */
-@import "components/screen-header.css";
-/* Friends */
 @import "screens/friends.css";
-/* User Info */
-@import "components/user-componet.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
 
 
 body {
   color: #2e363e;
   font-family: 'Open Sans', sans-serif;
+}
+
+.main-screen {
+  padding : 0px var(--horizontal-space);
 }
