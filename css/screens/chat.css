@@ -1,0 +1,140 @@
+#chat-screen {
+  background-color: #abc1d1;
+  height: 11000vh;
+}
+#chat-screen .status-bar,
+#chat-screen .alt-header {
+  background-color : #abc1d1;
+}
+#chat-screen .status-bar {
+  z-index: 2;
+}
+#chat-screen .alt-header {
+  top:0px;
+  position: fixed;
+  width:100%;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.main-chat {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chat__timestamp {
+  color: white;
+  background-color: rgb(146,164,178);
+  padding: 15px;
+  border-radius: 25px;
+  margin-bottom: 25px;
+}
+
+.message-row {
+  width: 100%;
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.message-row img {
+  width: 50px;
+  height: 50px;
+  border-radius: 30%;
+  margin-right: 15px;
+
+}
+.message__author {
+  opacity: .6;
+  font-size: 15px;
+  font-weight: 600;
+  display:block;
+  margin-bottom: 8px;
+}
+.message__info {
+  display: flex;
+  align-items: flex-end;
+}
+.message__bubble {
+  background-color: white;
+  padding:11px 13px;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  font-size: 19px;
+  font-weight: 600;
+}
+.message__time {
+  margin-left: 5px;
+  opacity: .6;
+  font-size: 12px;
+}
+.message-row--own {
+  justify-content: flex-end;
+}
+.message-row--own .message__bubble{
+  background-color: var(--yellow);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 0px;
+}
+.message-row--own .message__info {
+  flex-direction: row-reverse;
+}
+.message-row--own .message__time {
+    margin-left: 0px;
+    margin-right: 5px;
+}
+.reply {
+  position : fixed;
+  background-color: white;
+  bottom: 0px;
+  width:100%;
+  box-sizing: border-box;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 25px;
+}
+.reply i {
+  opacity: .5;
+}
+.reply__column {
+  position: relative;
+}
+.reply__column:last-child > i, .reply__column:last-child button {
+  position: absolute;
+  right:-10px;
+  top:3px;
+}
+.reply__column:last-child > i {
+  right:35px;
+  top:13px;
+}
+.reply .reply__column:first-child {
+  width:10%;
+}
+.reply .reply__column:last-child {
+  width:90%;
+}
+.reply input {
+  padding: 3px 0px 3px 10px;
+  height: 30px;
+  width: 100%;
+  border: var(--main-border);
+  border-radius: 20px;
+}
+.reply__column button {
+  background-color: var(--yellow);
+  border :none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reply__column button i {
+  opacity: 1;
+}
+.reply__column:focus,
+.reply__column:active {
+
+}
