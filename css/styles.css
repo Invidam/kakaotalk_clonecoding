@@ -9,6 +9,7 @@
 @import "components/badge.css";
 @import "components/icon-row.css";
 @import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
 
 /* Sceens */
 @import "screens/login.css";
@@ -27,3 +28,14 @@ body {
 .main-screen {
   padding : 0px var(--horizontal-space);
 }
+/* body::-webkit-scrollbar {
+  background-color: #11ffee00;
+
+}
+*::-webkit-scrollbar-thumb {
+  border-radius: 25px;
+  background-color : rgba(62,61,60,.85);
+}
+*::-webkit-scrollbar-track {
+  background-color: #11ffee00;
+} */
