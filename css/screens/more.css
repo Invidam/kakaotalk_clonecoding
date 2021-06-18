@@ -24,9 +24,9 @@
 }
 
 .more-suggestion {
-    margin-top: 50px;
-    padding-top: 40px;
-    border-top: var(--main-border);
+  margin-top: 50px;
+  padding-top: 40px;
+  border-top: var(--main-border);
 }
 .more-suggestion__title {
   margin-bottom: 30px;
